@@ -10,7 +10,7 @@
 $(function(){
 
   // Hide flash messages after timeout
-  setTimeout('$(".flash").fadeOut(1000)', 5000);
+  setTimeout('$(".flash").fadeOut(1000)', 60000);
 
   // Home sliders
   if($('#home-slider').length > 0) {
